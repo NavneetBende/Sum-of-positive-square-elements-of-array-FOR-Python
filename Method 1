@@ -1,0 +1,9 @@
+n=int(input(“Enter size array1 “))
+arr1=[]
+print(“enter element”)
+for i in range(n):
+    arr1.append(int(input()))
+s=0
+for i in arr1:
+    s+=i*i 
+print(s)
